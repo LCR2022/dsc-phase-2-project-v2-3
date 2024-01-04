@@ -10,6 +10,7 @@ Premiere Property Group, a prominent real estate agency in King County, has expe
 This initiative involves a deep dive into the vast array of housing data from King County, focusing on pivotal factors that influence house prices. Central to this analysis are variables such as the age of properties, their condition and ratings within different locations, the presence of views and waterfronts, and the impact of seasonal trends on sales.
 
 The ultimate goal is to establish a comprehensive pricing strategy that not only maximizes profits for Premiere Property Group but also adapts to the fluctuating dynamics of the King County real estate market.
+![download](https://github.com/LCR2022/dsc-phase-2-project-v2-3/assets/99391873/300df1d0-d736-46ea-9e89-17089aa5fcfe)
 
 ### General Objective:
 
