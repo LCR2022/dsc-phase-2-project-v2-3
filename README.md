@@ -25,6 +25,7 @@ iii) Is there a seasonal effect on the sales price of homes? For example, do hom
 iv) What extent do the views and waterfront accessibility influence the property pricing? Does this feature impact overall value of the property.
 
 Specific Objectives
+![Uploading image.png…]()
 
 **Age and Price Analysis:** Determine the impact of a house's age (year built) on its selling price and identify any significant patterns or trends that can be utilized in pricing strategies.
 
