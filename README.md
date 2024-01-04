@@ -25,7 +25,6 @@ iii) Is there a seasonal effect on the sales price of homes? For example, do hom
 iv) What extent do the views and waterfront accessibility influence the property pricing? Does this feature impact overall value of the property.
 
 Specific Objectives
-![Uploading image.png…]()
 
 **Age and Price Analysis:** Determine the impact of a house's age (year built) on its selling price and identify any significant patterns or trends that can be utilized in pricing strategies.
 
@@ -45,7 +44,7 @@ These specific objectives are designed to address each of the research questions
 
 Data
 
-Utilizing the King County Housing Data Set, which encompasses details such as house size, location, condition, and various features, this project endeavors to construct an advanced multiple regression model. The primary objective is to develop a predictive model that can accurately estimate a house's price by incorporating the key factors. The emphasis is on optimizing the model's precision to enable effective predictions in the dynamic real estate landscape of King County.
+Utilizing the [king county data set ](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction?resource=download)  which encompasses details such as house size, location, condition, and various features, this project endeavors to construct an advanced multiple regression model. The primary objective is to develop a predictive model that can accurately estimate a house's price by incorporating the key factors. The emphasis is on optimizing the model's precision to enable effective predictions in the dynamic real estate landscape of King County.
 
 ### Column Names and descriptions for King County Data Set
 * **id** - unique identified for a house
@@ -72,28 +71,50 @@ Utilizing the King County Housing Data Set, which encompasses details such as ho
   
 ### Findings, Conclusion & Recommendations:
 
-![png](Phase2_Project_files/Phase2_Project_76_0.png)
+![Finding](https://github.com/dukebaya/dsc-phase-2-project-v2-3/assets/133040698/6d75c8ed-4f47-41a4-9759-257f8572c31f)
+
 
 Age of the house vs Price
 
-![png](Phase2_Project_files/Phase2_Project_84_0.png)
+
+![Age of house](https://github.com/dukebaya/dsc-phase-2-project-v2-3/assets/133040698/b8f32c27-88be-403a-aa64-7cea1a7becbe)
 
 Grade vs Price
 
-![png](Phase2_Project_files/Phase2_Project_86_0.png)
 
+![Grade](https://github.com/dukebaya/dsc-phase-2-project-v2-3/assets/133040698/e4970079-63c2-4937-8563-7cbe2e399618)
 
-![png](Phase2_Project_files/Phase2_Project_86_1.png)
 
 Seasonal Pricing
 
-![png](Phase2_Project_files/Phase2_Project_88_0.png)
+![Seasonal Pricing](https://github.com/dukebaya/dsc-phase-2-project-v2-3/assets/133040698/173204b0-cb22-4c94-9668-8bd343112c56)
+
 
 Location vs Price
 
-![png](Phase2_Project_files/Phase2_Project_90_1.png)
+![Location](https://github.com/dukebaya/dsc-phase-2-project-v2-3/assets/133040698/cb519cd4-7cbf-4840-bffc-7a0ec16d7ec7)
 
-## __Final Recommendations:__
+
+### Conclusion:
+Positive Influencers on Price:
+
+The presence of additional bathrooms, increased square footage, higher floors, waterfront access, captivating views, and elevated grade scores positively impact house prices. Notably, the inclusion of cities like Medina and Mercer Island in the analysis reveals their positive association with higher property values.
+
+Negative Influencers on Price:
+
+The number of bedrooms, certain city affiliations (e.g., Auburn, Federal Way, Kent), in reference to Bellevue, and specific features (e.g., Fall Season, City) exhibit a negative correlation with house prices. Premiere Property Group should be cognizant of these factors when devising pricing strategies.
+
+Seasonal and Unique Factors:
+
+While some seasonal variables do not significantly impact prices, it's crucial to note that the age of the house and the presence of a basement can influence pricing dynamics.
+
+City-Specific Considerations:
+
+Each city has a unique influence on house prices, emphasizing the need for tailored strategies for different locations
+
+Based on the comprehensive analysis of the King County housing data, here are the final recommendations and opportunities for further analysis:
+
+## Final Recommendations:
 
 Dynamic Pricing Strategy:
 Implement a pricing strategy that accounts for property size (especially living area square footage), location (specific zipcodes and cities), and property features (like condition and grade).
@@ -110,7 +131,39 @@ Leverage insights from location-based analysis to make informed decisions about 
 Data-Driven Decision Making:
 Continue to use data analytics for informed decision-making in all aspects of real estate transactions, from pricing to marketing to investment strategies.
 
+### Opportunities for Further Analysis:
 
+Micro-Location Trends:
+Conduct a deeper analysis at a neighborhood level within specific zipcodes or cities to uncover more nuanced market trends and investment opportunities.
 
+Long-Term Market Trends:
+Analyze historical data over several years to understand long-term trends in the real estate market, including price appreciation rates in different areas.
 
-Based on the findings, the following was concluded:
+Economic and Demographic Factors:
+Incorporate broader economic indicators and demographic data to understand how macroeconomic conditions and population trends impact the real estate market.
+
+Advanced Predictive Modeling:
+Employ more advanced machine learning techniques, such as gradient boosting or neural networks, for more accurate price predictions and market trend analysis.
+
+Impact of Renovations:
+Investigate how different types of renovations and improvements impact property values, which could guide investment decisions for property upgrades.
+
+Customer Segmentation and Targeting:
+Use data analytics to segment potential buyers or renters and tailor marketing strategies to different target groups.
+
+Impact of External Factors:
+Assess the impact of external factors such as new infrastructure developments, zoning changes, or policy shifts on local real estate markets.
+By continuously leveraging data analytics and staying attuned to market trends, Premiere Property Group can maintain a competitive edge in the dynamic King County real estate market.
+
+## Authors 
+[Philip Mweri] (https://github.com/dukebaya)
+
+[Chepkemoi Ruto] (https://github.com/LCR2022)
+
+[Moses Wanja] (https://github.com/moseskigo)
+
+[Mark Kamau] (https://github.com/BigmanMKG)
+
+[Stephanie Mwai] (https://github.com/stephaniemwai)
+
+[Miriam Ongare] (https://github.com/Miriam-Ivy)
